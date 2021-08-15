@@ -3,9 +3,9 @@ import setuptools as setuptools
 
 setup(
     name='matrixOnDesktop.py',
-    version='.1',
+    version='1.0',
     packages=setuptools.find_packages(include=['kanji_lists']),
-    install_requires=['kanji_lists'],
+    requires=['kanji_lists'],
     python_requires='>=3',
     url='https://github.com/immanonner/Matrix_Code_Rain_TK/',
     license='MIT',
